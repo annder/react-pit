@@ -1,8 +1,8 @@
 # React PIT
 
-这个仓库是用于React的一些周边库和常见出错的地方。
+This library is used for `React` peripherals and common `pits`.
 
-[Chapters 1](www.baidu.com)  Hello Wrold Render!
+[Chapters 1]()  Hello Wrold Render React!
 
 [Chapters 2]() React Component!
 
@@ -13,5 +13,3 @@
 [Chapters 5]() React Diff!
  
 []
-
-say HEllo 
