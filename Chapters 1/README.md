@@ -48,3 +48,17 @@ render("Hello World",document.querySelector(".app"),()=>{
 ```
 
 根据JavaScript上的callback函数的特性，当"Hello Wolrd"渲染到.app这个节点的后，调用回掉函数。
+
+在React 16版本中，可以写没有父组件的组件，以及字符串组件：
+
+这样渲染，没有父组件的组件与字符串组件：
+
+```js
+//String Component.
+ReactDOM.render("Hello World",document.querySelctor(".app"))
+
+//No Parent Node Component.
+
+ReactDOM.render([<h1>Hello</h1>,<h1>World</h1>],document.querySelector(".app"))
+
+```
